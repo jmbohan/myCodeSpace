@@ -3,28 +3,3 @@ header {
     padding: 20px;
     text-align: center;
 }
-
-.parallax {
-    /* Adjust these values accordingly */
-    height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* Use a suitable image */
-    background-image: url('/workspaces/myCodeSpace/public/images/jb.jpg');
-}
-
-.parallax-content {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-}
-
-@media only screen and (max-width: 768px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
